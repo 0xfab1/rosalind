@@ -1,0 +1,3 @@
+#!/bin/bash
+echo $1
+python "src/$1.py" < "in/$1.in" | tee > "out/$1.out"
